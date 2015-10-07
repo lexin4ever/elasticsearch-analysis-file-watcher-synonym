@@ -15,6 +15,7 @@ import org.elasticsearch.common.base.Charsets;
 import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.inject.assistedinject.Assisted;
 import org.elasticsearch.common.lucene.Lucene;
+
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.env.Environment;
@@ -23,7 +24,7 @@ import org.elasticsearch.index.analysis.AbstractTokenFilterFactory;
 import org.elasticsearch.index.analysis.AnalysisSettingsRequired;
 import org.elasticsearch.index.analysis.TokenizerFactory;
 import org.elasticsearch.index.analysis.TokenizerFactoryFactory;
-import org.elasticsearch.index.service.IndexService;
+import org.elasticsearch.index.IndexService;
 import org.elasticsearch.index.settings.IndexSettings;
 import org.elasticsearch.indices.IndicesLifecycle;
 import org.elasticsearch.indices.IndicesService;

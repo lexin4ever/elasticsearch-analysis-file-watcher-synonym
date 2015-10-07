@@ -17,7 +17,8 @@ Example:
 	            "filter" : {
 	                "synonym" : {
 	                    "type" : "file_watcher_synonym",
-	                    "synonyms_path" : "analysis/synonym.txt"
+	                    "synonyms_path" : "analysis/synonym.txt",
+                            "index.version.created":"1070299",	// find your version here https://github.com/elastic/elasticsearch/blob/master/core/src/main/java/org/elasticsearch/Version.java
 	                    "interval" : "10s"
 	                }
 	            }
